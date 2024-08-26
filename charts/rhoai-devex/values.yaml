@@ -3,6 +3,10 @@ domain: openshift.api
 services:
   chartVersion: 0.2.1
 
+nfd:
+  enabled: true 
+  chartVersion: 0.1.3
+
 machinesets:
   chartVersion: 0.1.26
   enabled: false

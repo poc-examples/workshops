@@ -9,7 +9,7 @@ spec:
     namespace: "{{ .Values.gitops.namespace }}"
     server: 'https://kubernetes.default.svc'
   source:
-    chart: services
+    chart: rollout-controller
     repoURL: https://poc-examples.github.io/charts
     targetRevision: "{{ .Values.services.chartVersion }}"
     helm:
