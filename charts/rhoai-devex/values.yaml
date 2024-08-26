@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.3.9
+  chartVersion: 0.3.10
 
 nfd:
   enabled: true 
@@ -36,5 +36,9 @@ chains:
   enabled: false
 
 authorino:
+  enabled: true
+  chartVersion: 0.1.0
+
+kiali:
   enabled: true
   chartVersion: 0.1.0
