@@ -29,7 +29,7 @@ vault:
   enabled: true
 
 tekton:
-  chartVersion: 0.1.69
+  chartVersion: 0.1.70
   enabled: true
 
 chains:
