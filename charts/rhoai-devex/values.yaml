@@ -42,3 +42,7 @@ authorino:
 kiali:
   enabled: true
   chartVersion: 0.1.0
+
+tracing:
+  enabled: true
+  chartVersion: 0.1.0
