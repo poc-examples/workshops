@@ -27,3 +27,7 @@ external_secrets:
 vault:
   chartVersion: 0.27.0
   enabled: true
+
+tekton:
+  chartVersion: 0.1.66
+  enabled: true
