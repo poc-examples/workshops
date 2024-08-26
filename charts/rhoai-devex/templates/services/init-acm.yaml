@@ -1,3 +1,4 @@
+{{ if hasKey .Values "acm" }}
 {{ if .Values.acm.enabled }}
 ---
 apiVersion: policy.open-cluster-management.io/v1
@@ -64,3 +65,4 @@ spec:
   policies:
     - "services"
 {{- end }}
+{{ end }}
