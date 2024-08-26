@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.3.12
+  chartVersion: 0.3.13
 
 nfd:
   enabled: true 
@@ -54,3 +54,7 @@ serverless:
 servicemesh:
   enabled: true
   chartVersion: 0.1.1
+
+rhoai:
+  enabled: true
+  chartVersion: 0.1.2
