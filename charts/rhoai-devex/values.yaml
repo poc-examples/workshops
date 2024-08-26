@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.3.6
+  chartVersion: 0.3.7
 
 nfd:
   enabled: true 
@@ -34,3 +34,7 @@ tekton:
 
 chains:
   enabled: false
+
+authorino:
+  enabled: true
+  chartVersion: 0.1.0
