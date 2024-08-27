@@ -59,3 +59,8 @@ servicemesh:
 rhoai:
   enabled: true
   chartVersion: 0.1.2
+
+gitlab:
+  namespace: gitlab-system
+  chartVersion: 0.1.56
+  enabled: true
