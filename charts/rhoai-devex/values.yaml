@@ -21,7 +21,7 @@ gitops:
 
 external_secrets:
   enabled: true
-  chartVersion: 0.1.15
+  chartVersion: 0.1.16
   namespace: external-secrets
 
 vault:
