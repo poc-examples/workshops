@@ -62,6 +62,10 @@ rhoai:
   enabled: true
   chartVersion: 0.1.2
 
+devhub:
+  chartVersion: 0.1.10
+  enabled: true
+
 gitlab:
   namespace: gitlab-system
   chartVersion: 0.1.59
