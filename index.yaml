@@ -24,6 +24,16 @@ entries:
   rhoai-devex:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-08-28T15:07:07.576593426Z"
+    description: A Helm chart for Kubernetes
+    digest: 2a1e529fc1486e88ca86eb895c4fda044a4c12537ccc0b80e94038aac606e5a5
+    name: rhoai-devex
+    type: application
+    urls:
+    - https://github.com/poc-examples/workshops/releases/download/rhoai-devex-0.1.33/rhoai-devex-0.1.33.tgz
+    version: 0.1.33
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-08-28T14:41:29.090921749Z"
     description: A Helm chart for Kubernetes
     digest: f41d7affef21a54779f132a5271d91940406fe7eb7b66612785632f020ccd461
@@ -312,4 +322,4 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/rhoai-devex-0.1.0/rhoai-devex-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-28T14:41:29.091262937Z"
+generated: "2024-08-28T15:07:07.576912183Z"
