@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: services-plugin
+  name: rollout-controller
   namespace: "{{ .Values.gitops.namespace }}"
 spec:
   destination:
