@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.3.51
+  chartVersion: 0.3.52
 
 nfd:
   enabled: true 
@@ -65,7 +65,7 @@ rhoai:
   chartVersion: 0.1.2
 
 devhub:
-  chartVersion: 0.1.48
+  chartVersion: 0.1.49
   enabled: true
 
 gitlab:
