@@ -24,6 +24,16 @@ entries:
   rhoai-devex:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-09-24T04:20:55.924602976Z"
+    description: A Helm chart for Kubernetes
+    digest: 3c9c3dc2e0f16962b7b91c7ca1379c66fbd64975588d03d647051d2e9ff4ce94
+    name: rhoai-devex
+    type: application
+    urls:
+    - https://github.com/poc-examples/workshops/releases/download/rhoai-devex-0.1.43/rhoai-devex-0.1.43.tgz
+    version: 0.1.43
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-09-13T03:37:46.459665634Z"
     description: A Helm chart for Kubernetes
     digest: a0651166ecfb822964ee7739f8a35c43d0b9b46e3ecaba5cb7fbc5a1bdcbc43b
@@ -415,6 +425,16 @@ entries:
   rhoai-devex-github:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-09-24T04:20:56.100005591Z"
+    description: A Helm chart for Kubernetes
+    digest: cc3503ad859810d0ef5e79310d6bf2b7f5497dceb4911d67ab8dc48a44dc41d1
+    name: rhoai-devex-github
+    type: application
+    urls:
+    - https://github.com/poc-examples/workshops/releases/download/rhoai-devex-github-0.1.3/rhoai-devex-github-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-09-10T19:32:23.270537246Z"
     description: A Helm chart for Kubernetes
     digest: bed0afc3d6ef889b52bec3019b454a59b3d5751732d710c36d3d64cbb5cb2c2e
@@ -446,6 +466,16 @@ entries:
   rhoai-devex-mobb:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-09-24T04:20:56.258544386Z"
+    description: A Helm chart for Kubernetes
+    digest: d60680a90966adc1ec19fea23577e9a5900384e79b8a60d8f36c2d6c45b98a28
+    name: rhoai-devex-mobb
+    type: application
+    urls:
+    - https://github.com/poc-examples/workshops/releases/download/rhoai-devex-mobb-0.1.1/rhoai-devex-mobb-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-09-06T20:43:48.695765009Z"
     description: A Helm chart for Kubernetes
     digest: 000e661ab29c1984997a45dfa1b61f37c55f57ecf9397e4368f3e88e1d5c5f16
@@ -454,4 +484,4 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/rhoai-devex-mobb-0.1.0/rhoai-devex-mobb-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-13T03:37:46.459992431Z"
+generated: "2024-09-24T04:20:56.258967508Z"
