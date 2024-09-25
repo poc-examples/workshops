@@ -4,7 +4,7 @@ services:
   chartVersion: 0.3.54
 
 gitops:
-  namespace: openshift-gitops-operator
+  namespace: openshift-gitops
   channel: gitops-1.11
   enabled: true
   updater:
