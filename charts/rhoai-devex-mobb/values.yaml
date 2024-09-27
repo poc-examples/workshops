@@ -26,7 +26,7 @@ vault:
   address: "http://vault-service.vault-server.svc.cluster.local:8200"
 
 devhub:
-  chartVersion: 0.1.94
+  chartVersion: 0.1.118
   enabled: true
 
 gitlab:
