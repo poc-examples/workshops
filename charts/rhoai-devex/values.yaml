@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.3.63
+  chartVersion: 0.3.80
 
 nfd:
   enabled: true 
@@ -70,5 +70,5 @@ devhub:
 
 gitlab:
   namespace: gitlab-system
-  chartVersion: 0.1.78
+  chartVersion: 0.2.14
   enabled: true
