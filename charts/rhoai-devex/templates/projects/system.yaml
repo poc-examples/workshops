@@ -18,8 +18,12 @@ spec:
     - group: operators.coreos.com
       kind: Subscription
       check: |
-        if .status.conditions[] | select(.type == "InstallPlanPending" and .status == "True") then
-          healthStatus = "Healthy"
+        hs = {}
+        if obj.status ~= nil and obj.status.state == "UpgradePending" then
+          hs.status = "Healthy"
+          hs.message = "Upgrade is pending, but manual approval is required."
         else
-          healthStatus = "Progressing"
+          hs.status = "Progressing"
+          hs.message = "Unknown subscription state or upgrade in progress."
         end
+        return hs
