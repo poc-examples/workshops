@@ -14,16 +14,3 @@ spec:
   clusterResourceWhitelist:
     - group: '*'
       kind: '*'
-  healthChecks:
-    - group: operators.coreos.com
-      kind: Subscription
-      check: |
-        hs = {}
-        if obj.status ~= nil and obj.status.state == "UpgradePending" then
-          hs.status = "Healthy"
-          hs.message = "Upgrade is pending, but manual approval is required."
-        else
-          hs.status = "Progressing"
-          hs.message = "Unknown subscription state or upgrade in progress."
-        end
-        return hs
