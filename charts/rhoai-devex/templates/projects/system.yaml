@@ -14,6 +14,12 @@ spec:
   clusterResourceWhitelist:
     - group: '*'
       kind: '*'
-  # namespaceResourceBlacklist:
-  #   - group: ''
-  #     kind: 'Secret'
+  healthChecks:
+    - group: operators.coreos.com
+      kind: Subscription
+      check: |
+        if .status.conditions[] | select(.type == "InstallPlanPending" and .status == "True") then
+          healthStatus = "Healthy"
+        else
+          healthStatus = "Progressing"
+        end
