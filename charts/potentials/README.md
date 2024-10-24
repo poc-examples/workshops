@@ -22,3 +22,5 @@
 - Ansible Automation Platform
 - KeyCloak
 - Pipelines
+- Kafka
+- .Net Core on OpenShift
