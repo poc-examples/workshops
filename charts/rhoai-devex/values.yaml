@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.3.86
+  chartVersion: 0.4.0
 
 nfd:
   enabled: true 
@@ -34,7 +34,7 @@ vault:
   address: "http://vault-service.vault-server.svc.cluster.local:8200"
 
 tekton:
-  chartVersion: 0.1.70
+  chartVersion: 0.1.71
   enabled: true
 
 chains:
@@ -65,11 +65,11 @@ rhoai:
   chartVersion: 0.1.4
 
 devhub:
-  chartVersion: 0.1.118
+  chartVersion: 0.2.0
   enabled: true
 
 devspaces:
-  chartVersion: 0.1.2
+  chartVersion: 0.1.4
   enabled: true
 
 gitlab:
