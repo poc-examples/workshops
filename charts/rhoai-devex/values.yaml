@@ -74,5 +74,5 @@ devspaces:
 
 gitlab:
   namespace: gitlab-system
-  chartVersion: 0.2.14
+  chartVersion: 0.2.16
   enabled: true
