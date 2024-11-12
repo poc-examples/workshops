@@ -33,3 +33,7 @@ gitlab:
   namespace: gitlab-system
   chartVersion: 0.2.16
   enabled: true
+
+devspaces:
+  chartVersion: 0.1.5
+  enabled: false
