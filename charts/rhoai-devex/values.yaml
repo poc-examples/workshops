@@ -65,7 +65,7 @@ rhoai:
   chartVersion: 0.1.5
 
 devhub:
-  chartVersion: 0.2.1
+  chartVersion: 0.2.3
   enabled: true
 
 devspaces:
@@ -74,5 +74,5 @@ devspaces:
 
 gitlab:
   namespace: gitlab-system
-  chartVersion: 0.2.16
+  chartVersion: 0.2.19
   enabled: true
