@@ -3,6 +3,16 @@ entries:
   base-keycloak:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-11-25T06:32:02.510146519Z"
+    description: A Helm chart for Kubernetes
+    digest: 51d3c24b2b8c16f3a842debc6c446d0912a44afe93ae3dcdc3829c1c29cb575b
+    name: base-keycloak
+    type: application
+    urls:
+    - https://github.com/poc-examples/workshops/releases/download/base-keycloak-0.1.1/base-keycloak-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-11-25T05:31:14.082649217Z"
     description: A Helm chart for Kubernetes
     digest: 17c2b82f789d17ae04e1531a1ad76089e7473b09f78b798f7e492162c36dd081
@@ -925,4 +935,4 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/rhoai-devex-mobb-0.1.0/rhoai-devex-mobb-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-25T05:31:14.082928839Z"
+generated: "2024-11-25T06:32:02.510312419Z"
