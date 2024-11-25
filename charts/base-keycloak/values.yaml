@@ -1,0 +1,30 @@
+domain: openshift.api
+
+services:
+  chartVersion: 0.5.34
+
+gitops:
+  namespace: openshift-gitops
+  channel: gitops-1.11
+  enabled: true
+  updater:
+    chartVersion: 0.1.0
+    enabled: true
+
+external_secrets:
+  enabled: true
+  chartVersion: 0.1.30
+  namespace: external-secrets
+  connectors:
+    chartVersion: 0.1.1
+  k8sConnector:
+    enabled: true
+
+vault:
+  chartVersion: 0.27.0
+  enabled: true
+  address: "http://vault-service.vault-server.svc.cluster.local:8200"
+
+keycloak:
+  chartVersion: 0.1.40
+  enabled: true
