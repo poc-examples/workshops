@@ -1,3 +1,5 @@
+Some type of description
+
 # Available Workshops
 
 - [RHOAI-DevEx](docs/rhoai-devex.md) 
