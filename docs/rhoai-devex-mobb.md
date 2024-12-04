@@ -22,3 +22,23 @@ Follow the rest of the instructions from [iac-rhoai-on-cloud-services](https://g
 ```
 
 ### Demo Workflow
+
+#### Login to OpenShift
+
+Do some other stuff
+
+#### Login to Developer Hub
+
+Launch Some templates
+
+#### Login to DevSpaces
+
+Launch a workspace
+
+#### Test the Autocomplete
+
+Do some stuff
+
+#### Destroy the Cluster
+
+All done
