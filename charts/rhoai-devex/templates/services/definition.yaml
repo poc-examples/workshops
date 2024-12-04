@@ -2,19 +2,19 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: services-plugin
+  name: rollout-controller
   namespace: "{{ .Values.gitops.namespace }}"
 spec:
   destination:
     namespace: "{{ .Values.gitops.namespace }}"
     server: 'https://kubernetes.default.svc'
   source:
-    chart: services
+    chart: rollout-controller
     repoURL: https://poc-examples.github.io/charts
     targetRevision: "{{ .Values.services.chartVersion }}"
     helm:
       valuesObject: {{ toJson .Values }}
-  project: plugins
+  project: controllers
   syncPolicy:
     retry:
       limit: 10
