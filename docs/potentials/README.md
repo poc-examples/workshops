@@ -1,0 +1,24 @@
+# Potential Demos
+
+- Service Mesh Demo
+- IBM
+    - Maximo
+    - BAMOE(?)
+    - WatsonX
+- Administration
+    - Migration ToolKit
+    - Backup and Recovery
+- Compliance Related
+- ArgoCD
+    - Teams Based Approaches
+- TSSC
+- Monitoring
+    - ELK
+    - Prometheus/Graphana
+    - Log Forwarding
+- Openshift Virt
+- InstructLab
+- Ansible Automation Platform
+- Pipelines
+- Kafka
+- .Net Core on OpenShift
