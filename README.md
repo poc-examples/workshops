@@ -1,4 +1,4 @@
-Some type of description
+Workshops combine automation, guided instructions, and practical use cases for OpenShift users and developers. These workshops can be deployed using [cluster-bootstrapper](https://github.com/poc-examples/cluster-bootstrapper).
 
 # Available Workshops
 
