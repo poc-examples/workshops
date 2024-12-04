@@ -23,6 +23,10 @@ Follow the rest of the instructions from [iac-rhoai-on-cloud-services](https://g
 
 ### Demo Workflow
 
+#### Copy the Console Login Link
+
+![Console Login Link](images/rhoai-devex-mobb/console-link.png "Console Login Link")
+
 #### Login to OpenShift
 
 Do some other stuff
