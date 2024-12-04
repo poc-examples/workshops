@@ -4,6 +4,8 @@ This particular workshop chart works with the [iac-rhoai-on-cloud-services](http
 
 It will need to be configured differently.  Locate the following file in the repository. `ansible/roles/create_workshop/tasks/main.yaml` and set the Workshop task to match the following.
 
+Follow the rest of the instructions from [iac-rhoai-on-cloud-services](https://github.com/cwooley-rh/iac-rhoai-on-cloud-services/blob/workshop_rhoai_devex/ansible/roles/create_workshop/tasks/main.yaml).
+
 ### Bootstrapper Configuration
 
 ```yaml
