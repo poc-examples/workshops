@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.5.59
+  chartVersion: 0.5.60
 
 nfd:
   enabled: true 
@@ -74,7 +74,7 @@ devspaces:
 
 gitlab:
   namespace: gitlab-system
-  chartVersion: 0.2.19
+  chartVersion: 0.2.20
   enabled: true
 
 keycloak:
