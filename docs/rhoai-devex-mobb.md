@@ -29,20 +29,8 @@ Follow the rest of the instructions from [iac-rhoai-on-cloud-services](https://g
 
 #### Login to OpenShift
 
-Do some other stuff
+Logging to OpenShift using the provided link and the set CLUSTER_USERNAME & CLUSTER_PASSWORD.
 
-#### Login to Developer Hub
+#### Follow the Video
 
-Launch Some templates
-
-#### Login to DevSpaces
-
-Launch a workspace
-
-#### Test the Autocomplete
-
-Do some stuff
-
-#### Destroy the Cluster
-
-All done
+[WorkShop Video Url](https://drive.google.com/file/d/1ZcXFgGMHzjSrecDw0aC-1IgDHdUWDors/view?usp=drive_link)
