@@ -135,6 +135,16 @@ entries:
   devex-quay-pipelines:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-01-13T18:58:13.606074313Z"
+    description: A Helm chart for Kubernetes
+    digest: 60f11dca50654c36a9186efc8bf75b3d9e6977174d19b479902378172265b7a5
+    name: devex-quay-pipelines
+    type: application
+    urls:
+    - https://github.com/poc-examples/workshops/releases/download/devex-quay-pipelines-0.0.3/devex-quay-pipelines-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-01-12T04:30:08.2919089Z"
     description: A Helm chart for Kubernetes
     digest: 5055678dc71a5b8341fa6771fb0022f995f2edc40cad6ee84152140e4066d5f7
@@ -1117,4 +1127,4 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/rhoai-devex-mobb-0.1.0/rhoai-devex-mobb-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-12T04:30:08.589324371Z"
+generated: "2025-01-13T18:58:13.606330113Z"
