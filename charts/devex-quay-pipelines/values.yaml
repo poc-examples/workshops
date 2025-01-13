@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.5.62
+  chartVersion: 0.5.64
 
 gitops:
   namespace: openshift-gitops
@@ -39,6 +39,10 @@ devhub:
 gitlab:
   namespace: gitlab-system
   chartVersion: 0.2.21
+  enabled: true
+
+quay:
+  chartVersion: 0.1.1
   enabled: true
 
 keycloak:
