@@ -11,6 +11,10 @@ gitops:
     chartVersion: 0.1.0
     enabled: true
 
+acs:
+  chartVersion: 0.1.21
+  enabled: true
+
 external_secrets:
   enabled: true
   chartVersion: 0.1.30
