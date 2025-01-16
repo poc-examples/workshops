@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.5.67
+  chartVersion: 0.5.68
 
 gitops:
   namespace: openshift-gitops
@@ -46,7 +46,7 @@ gitlab:
   enabled: true
 
 quay:
-  chartVersion: 0.1.9
+  chartVersion: 0.1.11
   enabled: true
 
 quay_bridge:
