@@ -135,6 +135,16 @@ entries:
   devex-helm:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-01-22T18:17:48.940583068Z"
+    description: A Helm chart for Kubernetes
+    digest: e090fb305dff875b33019727f075257cf28aadf2ee1d9d65f54e70ad08a8a74e
+    name: devex-helm
+    type: application
+    urls:
+    - https://github.com/poc-examples/workshops/releases/download/devex-helm-0.0.3/devex-helm-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-01-22T17:30:25.969943922Z"
     description: A Helm chart for Kubernetes
     digest: 5b812082c6a9ab9d8bb172788b63918f048be0cad7916ad85827f8a211cb8e19
@@ -1198,4 +1208,4 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/rhoai-devex-mobb-0.1.0/rhoai-devex-mobb-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-22T17:30:25.970265825Z"
+generated: "2025-01-22T18:17:48.940765911Z"
