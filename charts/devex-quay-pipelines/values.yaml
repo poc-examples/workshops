@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.5.69
+  chartVersion: 0.5.72
 
 gitops:
   namespace: openshift-gitops
@@ -30,7 +30,7 @@ vault:
   address: "http://vault-service.vault-server.svc.cluster.local:8200"
 
 tekton:
-  chartVersion: 0.1.71
+  chartVersion: 0.1.72
   enabled: true
 
 chains:
@@ -38,7 +38,7 @@ chains:
 
 devhub:
   chartVersion: 0.2.26
-  enabled: true
+  enabled: false
 
 gitlab:
   namespace: gitlab-system
