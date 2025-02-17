@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.5.75
+  chartVersion: 0.5.76
 
 gitops:
   namespace: openshift-gitops
