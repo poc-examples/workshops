@@ -47,7 +47,7 @@ quay:
 
 quay_bridge:
   enabled: true
-  chartVersion: 0.1.5
+  chartVersion: 0.1.6
 
 keycloak:
   chartVersion: 0.1.80
