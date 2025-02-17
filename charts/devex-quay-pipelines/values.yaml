@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.5.73
+  chartVersion: 0.5.75
 
 gitops:
   namespace: openshift-gitops
@@ -34,10 +34,6 @@ tekton:
   enabled: true
 
 chains:
-  enabled: false
-
-devhub:
-  chartVersion: 0.2.26
   enabled: false
 
 gitlab:
