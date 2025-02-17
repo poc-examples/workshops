@@ -30,7 +30,7 @@ vault:
   address: "http://vault-service.vault-server.svc.cluster.local:8200"
 
 tekton:
-  chartVersion: 0.1.72
+  chartVersion: 0.1.73
   enabled: true
 
 chains:
@@ -39,10 +39,10 @@ chains:
 gitlab:
   namespace: gitlab-system
   chartVersion: 0.2.21
-  enabled: true
+  enabled: false
 
 quay:
-  chartVersion: 0.1.11
+  chartVersion: 0.1.12
   enabled: true
 
 quay_bridge:
