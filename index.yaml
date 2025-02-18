@@ -287,6 +287,16 @@ entries:
   devex-streaming-dotnet:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-02-18T20:03:47.273999965Z"
+    description: A Helm chart for Kubernetes
+    digest: 90a8f67e875d9632f2cae8ede56d46b815f10a40cb13576ad08f111cd2e2181a
+    name: devex-streaming-dotnet
+    type: application
+    urls:
+    - https://github.com/poc-examples/workshops/releases/download/devex-streaming-dotnet-0.0.2/devex-streaming-dotnet-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-02-18T19:22:43.814704962Z"
     description: A Helm chart for Kubernetes
     digest: ef78911491d59dd724abc744b2dc7d2fb393a1c62cf64126a85ed683b88f3033
@@ -1279,4 +1289,4 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/rhoai-devex-mobb-0.1.0/rhoai-devex-mobb-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-18T19:22:43.815018345Z"
+generated: "2025-02-18T20:03:47.274312487Z"
