@@ -284,6 +284,17 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/devex-quay-pipelines-0.0.2/devex-quay-pipelines-0.0.2.tgz
     version: 0.0.2
+  devex-streaming-dotnet:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-02-18T19:22:43.814704962Z"
+    description: A Helm chart for Kubernetes
+    digest: ef78911491d59dd724abc744b2dc7d2fb393a1c62cf64126a85ed683b88f3033
+    name: devex-streaming-dotnet
+    type: application
+    urls:
+    - https://github.com/poc-examples/workshops/releases/download/devex-streaming-dotnet-0.0.1/devex-streaming-dotnet-0.0.1.tgz
+    version: 0.0.1
   pipelines-as-code:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -1268,4 +1279,4 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/rhoai-devex-mobb-0.1.0/rhoai-devex-mobb-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-17T21:43:35.76630215Z"
+generated: "2025-02-18T19:22:43.815018345Z"
