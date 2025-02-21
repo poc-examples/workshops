@@ -75,7 +75,7 @@ devspaces:
 gitlab:
   namespace: gitlab-system
   chartVersion: 0.2.21
-  enabled: false
+  enabled: true
 
 keycloak:
   chartVersion: 0.1.63
