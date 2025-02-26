@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.5.79
+  chartVersion: 0.5.81
 
 gitops:
   namespace: openshift-gitops
@@ -26,12 +26,12 @@ vault:
   address: "http://vault-service.vault-server.svc.cluster.local:8200"
 
 keycloak:
-  chartVersion: 0.1.81
+  chartVersion: 0.1.87
   enabled: true
 
 gitlab:
   namespace: gitlab-system
-  chartVersion: 0.2.37
+  chartVersion: 0.2.38
   enabled: true
 
 devhub:
