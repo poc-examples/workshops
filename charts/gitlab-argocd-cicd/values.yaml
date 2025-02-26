@@ -31,7 +31,7 @@ keycloak:
 
 gitlab:
   namespace: gitlab-system
-  chartVersion: 0.2.36
+  chartVersion: 0.2.37
   enabled: true
 
 devhub:
