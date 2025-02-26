@@ -336,6 +336,16 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/pipelines-as-code-0.1.2/pipelines-as-code-0.1.2.tgz
     version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-02-26T03:18:37.515307224Z"
+    description: A Helm chart for Kubernetes
+    digest: 00538a7ce5ef6ca5f2dd3c15cc375c155987c0f5f72cb2c28988dcc27ed989b5
+    name: pipelines-as-code
+    type: application
+    urls:
+    - https://github.com/poc-examples/workshops/releases/download/pipelines-as-code-0.0.1/pipelines-as-code-0.0.1.tgz
+    version: 0.0.1
   rhoai-devex:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -1299,4 +1309,4 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/rhoai-devex-mobb-0.1.0/rhoai-devex-mobb-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-21T06:46:09.367507154Z"
+generated: "2025-02-26T03:18:37.515671405Z"
