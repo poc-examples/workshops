@@ -26,12 +26,12 @@ vault:
   address: "http://vault-service.vault-server.svc.cluster.local:8200"
 
 keycloak:
-  chartVersion: 0.1.63
+  chartVersion: 0.1.81
   enabled: true
 
 gitlab:
   namespace: gitlab-system
-  chartVersion: 0.2.21
+  chartVersion: 0.2.36
   enabled: true
 
 devhub:
