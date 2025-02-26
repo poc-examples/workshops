@@ -315,6 +315,17 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/devex-streaming-dotnet-0.0.1/devex-streaming-dotnet-0.0.1.tgz
     version: 0.0.1
+  gitlab-argocd-cicd:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-02-26T03:20:19.453652932Z"
+    description: A Helm chart for Kubernetes
+    digest: 2c5bb37c000070a51c7d6e579f04df9012a7808ec8ab7764a633e46c9295dedf
+    name: gitlab-argocd-cicd
+    type: application
+    urls:
+    - https://github.com/poc-examples/workshops/releases/download/gitlab-argocd-cicd-0.0.1/gitlab-argocd-cicd-0.0.1.tgz
+    version: 0.0.1
   pipelines-as-code:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -1309,4 +1320,4 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/rhoai-devex-mobb-0.1.0/rhoai-devex-mobb-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-26T03:18:37.515671405Z"
+generated: "2025-02-26T03:20:19.453903107Z"
