@@ -318,6 +318,16 @@ entries:
   gitlab-argocd-cicd:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-02-26T15:27:22.813216051Z"
+    description: A Helm chart for Kubernetes
+    digest: a0fbf17ad7510a346a8085370cfedd293594b423b5fa92803d00d65bfd01147e
+    name: gitlab-argocd-cicd
+    type: application
+    urls:
+    - https://github.com/poc-examples/workshops/releases/download/gitlab-argocd-cicd-0.0.3/gitlab-argocd-cicd-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-02-26T05:12:08.846108724Z"
     description: A Helm chart for Kubernetes
     digest: 55ac3996e9927c65cdcb3aa2ebd8c37cd5c31f085154ecfd36cf4cac95869719
@@ -1330,4 +1340,4 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/rhoai-devex-mobb-0.1.0/rhoai-devex-mobb-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-26T05:12:08.846448112Z"
+generated: "2025-02-26T15:27:22.813521758Z"
