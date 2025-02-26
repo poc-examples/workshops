@@ -8,7 +8,6 @@
 - Administration
     - Migration ToolKit
     - Backup and Recovery
-- DeveloperHUB + Dev Spaces
 - Compliance Related
 - ArgoCD
     - Teams Based Approaches
