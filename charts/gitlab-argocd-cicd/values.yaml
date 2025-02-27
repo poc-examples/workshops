@@ -41,5 +41,5 @@ devhub:
   enabled: true
 
 quay:
-  chartVersion: 0.1.12
+  chartVersion: 0.1.13
   enabled: true
