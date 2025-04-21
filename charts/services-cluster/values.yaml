@@ -1,0 +1,97 @@
+domain: openshift.api
+
+services:
+  #0.5.80? Known good?
+  chartVersion: 0.5.92
+
+# Node Labeling & Runtimes
+nfd:
+  enabled: false 
+  chartVersion: 0.1.3
+
+nvidiagpu:
+  enabled: false 
+  chartVersion: 0.1.1
+
+# GitOps
+gitops:
+  namespace: openshift-gitops
+  channel: gitops-1.11
+  enabled: true
+  updater:
+    chartVersion: 0.1.0
+    enabled: true
+
+# Secrets Management
+external_secrets:
+  enabled: true
+  chartVersion: 0.1.30
+  namespace: external-secrets
+  connectors:
+    chartVersion: 0.1.1
+  k8sConnector:
+    enabled: true
+
+vault:
+  chartVersion: 0.27.0
+  enabled: true
+  address: "http://vault-service.vault-server.svc.cluster.local:8200"
+
+# Identity Management
+keycloak:
+  # 0.1.81 known Good?
+  chartVersion: 0.1.87
+  enabled: true
+
+# Artifacts
+quay:
+  chartVersion: 0.1.13
+  enabled: false
+
+gitlab:
+  namespace: gitlab-system
+  # 0.2.35? Known Good
+  chartVersion: 0.2.45
+  enabled: true
+  runners: 
+    enabled: false
+
+# Message Brokers
+amq:
+  enabled: false
+  chartVersion: 0.0.2
+
+# AI Requirements
+authorino:
+  enabled: false
+  chartVersion: 0.1.0
+
+kiali:
+  enabled: false
+  chartVersion: 0.1.0
+
+tracing:
+  enabled: false
+  chartVersion: 0.1.0
+
+serverless:
+  enabled: false
+  chartVersion: 0.1.1
+
+servicemesh:
+  enabled: false
+  chartVersion: 0.1.1
+
+rhoai:
+  enabled: false
+  chartVersion: 0.1.5
+
+# Developer Experience
+devhub:
+  chartVersion: 0.2.34
+  enabled: false
+
+devspaces:
+  chartVersion: 0.1.26
+  enabled: false
+
