@@ -1411,4 +1411,15 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/services-cluster-0.0.1/services-cluster-0.0.1.tgz
     version: 0.0.1
-generated: "2025-04-23T15:04:48.947682924Z"
+  test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-24T01:30:33.257127957Z"
+    description: A Helm chart for Kubernetes
+    digest: dc534d7c88891b4d7aa103cac609cad6f62b31c39d4e5fb003f6f9173f69baba
+    name: test
+    type: application
+    urls:
+    - https://github.com/poc-examples/workshops/releases/download/test-0.0.1/test-0.0.1.tgz
+    version: 0.0.1
+generated: "2025-04-24T01:30:33.257440313Z"
