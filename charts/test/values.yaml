@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.5.97
+  chartVersion: 0.5.104
 
 # GitOps
 gitops:
@@ -18,7 +18,7 @@ external_secrets:
   chartVersion: 0.1.30
   namespace: external-secrets
   connectors:
-    chartVersion: 0.1.1
+    chartVersion: 0.1.4
   k8sConnector:
     enabled: true
 
