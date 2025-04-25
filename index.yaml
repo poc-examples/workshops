@@ -1424,6 +1424,16 @@ entries:
   test:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-04-25T18:32:31.027197589Z"
+    description: A Helm chart for Kubernetes
+    digest: d35f950165b198d0fc779a5272bcb131f39632646e0b5452f2e81e7ea94a1c06
+    name: test
+    type: application
+    urls:
+    - https://github.com/poc-examples/workshops/releases/download/test-0.0.2/test-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-04-24T01:30:33.257127957Z"
     description: A Helm chart for Kubernetes
     digest: dc534d7c88891b4d7aa103cac609cad6f62b31c39d4e5fb003f6f9173f69baba
@@ -1432,4 +1442,4 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/test-0.0.1/test-0.0.1.tgz
     version: 0.0.1
-generated: "2025-04-24T15:36:09.001708055Z"
+generated: "2025-04-25T18:32:31.027498786Z"
