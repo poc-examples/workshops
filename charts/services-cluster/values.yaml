@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.6.11
+  chartVersion: 0.6.12
 
 # GitOps
 gitops:
