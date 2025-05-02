@@ -1393,6 +1393,16 @@ entries:
   services-cluster:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-05-02T23:19:58.767517404Z"
+    description: A Helm chart for Kubernetes
+    digest: ba73fdafb252ac0b5e445c866ee48d5c9f6716591c56f0ca33b49fd54a23d793
+    name: services-cluster
+    type: application
+    urls:
+    - https://github.com/poc-examples/workshops/releases/download/services-cluster-0.0.9/services-cluster-0.0.9.tgz
+    version: 0.0.9
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-05-02T23:17:04.543738988Z"
     description: A Helm chart for Kubernetes
     digest: 5a1f6760739105d9b1dbeabe30d44b69e0e8d3eaf5e294fa4e76f621da39b7a4
@@ -1522,4 +1532,4 @@ entries:
     urls:
     - https://github.com/poc-examples/workshops/releases/download/test-0.0.1/test-0.0.1.tgz
     version: 0.0.1
-generated: "2025-05-02T23:17:04.544009946Z"
+generated: "2025-05-02T23:19:58.767765048Z"
