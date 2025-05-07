@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.6.26
+  chartVersion: 0.6.27
 
 # GitOps
 gitops:
@@ -42,7 +42,7 @@ minio:
   chartVersion: 0.0.18
 
 opentelemetry:
-  chartVersion: 0.0.11
+  chartVersion: 0.0.13
   enabled: true
 
 gitlab:
@@ -89,5 +89,5 @@ devhub:
 
 devspaces:
   chartVersion: 0.1.26
-  enabled: false
+  enabled: true
 
