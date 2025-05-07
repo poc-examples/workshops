@@ -1,7 +1,7 @@
 domain: openshift.api
 
 services:
-  chartVersion: 0.6.23
+  chartVersion: 0.6.25
 
 # GitOps
 gitops:
@@ -30,8 +30,6 @@ vault:
 # Identity Management
 keycloak:
   chartVersion: 0.2.4
-  settings:
-    registrationAllowed: false
   enabled: true
 
 # Artifacts
