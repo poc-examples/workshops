@@ -38,12 +38,12 @@ quay:
   enabled: false
 
 minio:
-  enabled: true
+  enabled: false
   chartVersion: 0.0.18
 
 opentelemetry:
   chartVersion: 0.0.13
-  enabled: true
+  enabled: false
 
 gitlab:
   namespace: gitlab-system
@@ -89,5 +89,5 @@ devhub:
 
 devspaces:
   chartVersion: 0.1.26
-  enabled: true
+  enabled: false
 
